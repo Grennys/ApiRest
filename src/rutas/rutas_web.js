@@ -11,15 +11,6 @@ rutas.get('/productos', (req, res) =>{
     res.json(myData);             
 });
 
-//Consultar por SKU
-rutas.get('/productos/:sku', (req, res ) => {    
-    const { sku } = req.params;    
-    under.each(myData.productos, (producto,i) =>{
-        if(producto.sku == sku){                                    
-            res.json(producto);
-        }        
-    });     
-});
 
 //Post agregar un producto
 rutas.post('/productos', (req, res ) => {  
