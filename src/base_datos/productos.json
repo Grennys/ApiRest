@@ -1,0 +1,26 @@
+[
+    {
+        "sku": "1",
+        "nombre": "Camisaeeeee",
+        "precio": 250000,
+        "url": "/images/feet.jpg",
+        "marca": "Nike",
+        "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles",
+        "iva": 0.18,
+        "descuento": 0.2,
+        "inventario": 5,
+        "fecha_creacion": "2022-08-31"
+    },
+    {
+        "sku": "2",
+        "nombre": "Camisaeeeee",
+        "precio": 250000,
+        "url": "/images/feet.jpg",
+        "marca": "Nike",
+        "descripcion": "Zapatos deportivos especiales para tus días de ejercicios. Son cómodos y flexibles",
+        "iva": 0.18,
+        "descuento": 0.2,
+        "inventario": 5,
+        "fecha_creacion": "2022-08-31"
+    }    
+]
