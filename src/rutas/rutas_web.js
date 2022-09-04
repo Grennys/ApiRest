@@ -48,6 +48,14 @@ rutas.post('/productos', (req, res ) => {
     }
 });
 
+//Eliminar un producto
+rutas.delete('/productos/:sku', (req, res ) => {
+    const { sku } = req.params;
+    Nprodcuto = Nprodcuto.filter(Nprodcuto => Nprodcuto.sku != req.params.sku);
+    const nuevoP_json = JSON.stringify(Nprodcuto);
+    fs.writeFileSync('src/Base_datos/productos.json', nuevoP_json);
+    res.send('se eliminó el producto satisfactoriamente');
+});
 
 
 module.exports = rutas;
