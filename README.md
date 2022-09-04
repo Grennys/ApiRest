@@ -2,7 +2,14 @@
 
 Reto Ciclo 2
 
-Este proyecto es un servicio web en Node.js basado en API REST, utilizando los métodos GET, POST, PUT y DELETE
-de forma correcta, además tiene la capacidad de recibir datos de entrada en formato JSON y la
-respuesta retornada debe ser en el mismo formato.
+Para el uso correcto  y prueba de este proyecto debemos tener la siguientes herramientas
 
+Node.js
+Editor de código. 
+Postman 
+
+Después de tener estas herramienta desde editor de código abra la carpeta del proyecto , abra un terminal integrada y instale lo siguientes modulos. 
+npm install express morgan
+npm install nodemon -D
+
+Por ultimo ejecutar en por el comando "npm run dev" para ejecutar el servicio
